@@ -177,6 +177,8 @@ digraph EpiFamily {
     adhollande [label="Aurélien\Dhollande"];
     mhau [label="Mailys\nHau"];
     tecoffet [label="Tugdual\nEcoffet"];
+    mrauss [label="Maureen\nRauss"];
+    mstombellini [label="Matthieu\nStombellini"];
 
     /*
     ** List of patronage links
@@ -292,6 +294,9 @@ digraph EpiFamily {
         // Samy's graph
         samy -> vanvliet;
         samy -> tsadoune;
+	   //Thanina's graph
+	   tsadoune -> mrauss;
+	   tsadoune -> mstombellini;
         samy -> tome;
 	  //Tom-Eliott's graph
 	  tome -> aparou;
