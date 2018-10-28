@@ -130,6 +130,7 @@ digraph EpiFamily
     mschoose [label="Merlin\nSchoose"];
     mstombellini [label="Matthieu\nStombellini"];
     mvidal [label="Matthieu\nVidal"];
+    mrauss [label="Maureen\nRauss];
     mwenger [label="Marlon\nWenger"];
     nalbandian [label="Samy\nNalbandian"];
     navarro [label="Hadrien\nNavarro"];
@@ -200,6 +201,7 @@ digraph EpiFamily
     vhenry [label ="Valentin\nHenry"];
     victoria [label="Victoria\nKrajcovicova"];
     villain [label="Marc\nVillain"];
+    vli [label="Virginie\nLi"];
     vpellan [label="Victor\nPellan"];
     vseux [label="Valentin\nSeux"];
     vthiron [label="Valentin\nThiron"];
@@ -305,6 +307,9 @@ digraph EpiFamily
           mlecomte -> tsadoune;
             // Thanina's graph
             tsadoune -> mstombellini;
+	    tsadoune -> vli;
+	    tsadoune -> mrauss;
+	    
         kluyt -> mschoose;
         kluyt -> pmade;
         kluyt -> tlepage;
