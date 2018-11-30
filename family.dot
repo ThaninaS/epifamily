@@ -18,7 +18,7 @@ digraph EpiFamily
     apluquet [label="Adèle\nPluquet"];
     attie [label="Mahé\nAttié"];
     audr [label="Audran\nDoublet"];
-    azouz [label="Alex\nZouz"];
+    azouzowsky [label="Alexandre\nZouzowsky"];
     baggins [label="Léa\nFages"];
     bamar [label="Benjamin\nAmar"];
     barbarat [label="Quentin\nBarbarat"];
@@ -108,6 +108,7 @@ digraph EpiFamily
     majed [label="Alexandre\nMajed"];
     malasse [label ="Juliette\nMalassé"];
     manceau [label="Aurélien\nManceau"];
+    mrauss [label="Maureen\nRauss"];
     maunaury [label="Augustin\nMaunaury"];
     mbernard [label="Marion\nBernard"];
     mchardon [label="Maxime\nChardon"];
@@ -200,6 +201,7 @@ digraph EpiFamily
     vhenry [label ="Valentin\nHenry"];
     victoria [label="Victoria\nKrajcovicova"];
     villain [label="Marc\nVillain"];
+    vli [label="Virginie\nLi"];
     vpellan [label="Victor\nPellan"];
     vseux [label="Valentin\nSeux"];
     vthiron [label="Valentin\nThiron"];
@@ -305,6 +307,9 @@ digraph EpiFamily
           mlecomte -> tsadoune;
             // Thanina's graph
             tsadoune -> mstombellini;
+	    tsadoune -> vli;
+	    tsadoune -> azouzowsky;
+	    tsadoune -> mrauss;
         kluyt -> mschoose;
         kluyt -> pmade;
         kluyt -> tlepage;
